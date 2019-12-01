@@ -49,6 +49,7 @@ nav a {
   color: #6c8fe0;
   justify-content: flex-start;
   padding: .5rem .75rem;
+  white-space: nowrap;
 }
 
 nav a:hover {
@@ -71,6 +72,10 @@ nav a:hover {
 
 @media only screen and (min0width: 38em) {
 
+  html {
+    font-size: 110%;
+  }
+
   nav ul {
     display: flex;
     align-items: center;
@@ -83,6 +88,10 @@ nav a:hover {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -94,6 +103,10 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
   nav ul {
     flex-wrap: nowrap;
