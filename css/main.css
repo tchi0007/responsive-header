@@ -74,6 +74,7 @@ nav a:hover {
 
   html {
     font-size: 110%;
+    line-height: 1.4;
   }
 
   nav ul {
@@ -90,6 +91,7 @@ nav a:hover {
 
   html {
     font-size: 120%;
+    line-height: 1.5;
   }
 
   header {
@@ -106,6 +108,7 @@ nav a:hover {
 
   html {
     font-size: 130%;
+    line-height: 1.5;
   }
 
   nav ul {
