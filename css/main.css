@@ -27,11 +27,13 @@ header {
 }
 
 header h1 {
-text-align: center;
+  margin: 0;
+  text-align: center;
+
 }
 
 nav ul {
-font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 nav ul li {
@@ -45,6 +47,8 @@ nav ul li:hover {
 nav a {
   text-decoration: none;
   color: #6c8fe0;
+  justify-content: flex-start;
+  padding: .5rem .75rem;
 }
 
 nav a:hover {
@@ -54,12 +58,45 @@ nav a:hover {
 
 @media only screen and (min-width: 25em) {
 
+  nav {
+    overflow: auto;
+  }
+
+  nav li {
+    float: left;
+    width: 50%;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min0width: 38em) {
 
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    flex-wrap: nowrap;
+}
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  nav ul {
+    flex-wrap: nowrap;
+}
 
 }
