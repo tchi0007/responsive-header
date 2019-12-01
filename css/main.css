@@ -29,7 +29,6 @@ header {
 header h1 {
   margin: 0;
   text-align: center;
-
 }
 
 nav ul {
@@ -68,9 +67,10 @@ nav a:hover {
     width: 50%;
     justify-content: center;
   }
+
 }
 
-@media only screen and (min0width: 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -85,6 +85,7 @@ nav a:hover {
   nav ul li {
     width: 25%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -98,9 +99,10 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
   }
+
   nav ul {
     flex-wrap: nowrap;
-}
+  }
 
 }
 
@@ -108,11 +110,10 @@ nav a:hover {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
   nav ul {
     flex-wrap: nowrap;
-}
+  }
 
 }
