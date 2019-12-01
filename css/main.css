@@ -24,3 +24,36 @@ header {
   background-color: #18294f;
   color: #fff;
 }
+
+header h1 {
+text-align: center;
+}
+
+nav ul {
+font-size: 1.125rem;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6c8fe0;
+}
+
+nav ul li:hover {
+  background-color: #6c8fe0;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min0width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
